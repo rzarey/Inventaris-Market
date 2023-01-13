@@ -102,3 +102,19 @@ Diskon 10%: 0
 Total Bayar: 0
 Terima kasih sudah berbelanja!
 
+Nota Pembelian
+Nama Pelanggan: rey
+Daftar Barang: hud,
+Harga Barang: 22222
+Diskon 10%: 0
+Total Bayar: 19999
+Terima kasih sudah berbelanja!
+
+Nota Pembelian
+Nama Pelanggan: rey
+Daftar Barang: apayha,apayha,apayha,
+Harga Barang: 64000
+Diskon 10%: 0
+Total Bayar: 57600
+Terima kasih sudah berbelanja!
+

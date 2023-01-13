@@ -1,3 +1,19 @@
+// =============================================================
+															
+// 	  		    	Proyek ini dikembangkan dengan menggunakan
+//                  Tujuan dari proyek ini adalah untuk mengembangkan sebuah sistem manajemen inventaris yang 
+                    //dapat digunakan untuk mengelola stok produk secara efisien dan akurat dengan menggunakan bahasa pemrograman C++ dan struktur data stack. Fungsi-fungsi yang diterapkan dalam sistem termasuk menambahkan produk baru, menghapus produk, memodifikasi detail produk, dan menampilkan produk yang tersedia. Tujuan dari proyek ini adalah untuk membantu perusahaan dalam meningkatkan efisiensi operasional dan meningkatkan kepuasan pelanggan. 
+
+
+															
+															
+// 					Oleh : Reyhanssan Islamey
+//                  Nim  : 2200018411
+//                  Kelas : I
+
+															
+															
+// =============================================================    
     #include <iostream>
     #include <string>
     #include <sstream>
@@ -179,6 +195,7 @@
         int jumlah = 0;
         struct node *p = head;
             cout << "Produk yang tersedia: \n";
+            cout << "#tekan ( -1 ) untuk kembali ke menu awal "<<endl;
             cout << "ID\t\tNama Produk\t\tHarga\t\tJumlah\n";
             cout << "===================================================\n";
         while (p != NULL)
@@ -218,8 +235,8 @@
             if(head==NULL){
                 cout<<"\n<<<<Barang tidak tersedia>>>>\n\n";
             }else{
-            cout<<"Berapa banyak barang yang inin di beli?\n";
-            cout<<"Masukkan jumlah : ";
+            cout<<"Berapa banyak barang yang ingin kamu beli!\n";
+            cout<<"Masukan Jumlah Barang : ";
             cin>>no; 
             int hitung=display();          
             while (i<=no)
